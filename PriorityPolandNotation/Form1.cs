@@ -80,7 +80,7 @@ namespace PriorityPolandNotation
             SymMas.Add("-", 2);
             SymMas.Add("(", 1);
             SymMas.Add(")", 1);
-            string input=null;
+            string input=string.Empty;
             string output = null;
             if (Skobki(textBox1.Text.Trim()) != "Error") input = textBox1.Text.Trim(); else output = "Error";
             string hash = null;
