@@ -149,6 +149,12 @@ namespace PriorityPolandNotation
                     }
                     else 
                     {
+                        if (operators.Peek() == "(")
+                        {
+                            output = "Error";
+                            break;
+                            //Баг на единственное число в скобке...
+                        }
                         while (operators.Peek() != "(") 
                         {
                             output += operators.Peek();
