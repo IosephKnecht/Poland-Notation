@@ -82,10 +82,11 @@ namespace PriorityPolandNotation
             SymMas.Add(")", 1);
             string input=null;
             string output = null;
-            if (Skobki(textBox1.Text) != "Error") input = textBox1.Text; else output = "Error";
+            if (Skobki(textBox1.Text.Trim()) != "Error") input = textBox1.Text.Trim(); else output = "Error";
             string hash = null;
             Stack<string> operators = new Stack<string>();
             Stack<double> operands = new Stack<double>();
+            input = input.Replace(" ", "");
             while (input != null) 
             {
                 try

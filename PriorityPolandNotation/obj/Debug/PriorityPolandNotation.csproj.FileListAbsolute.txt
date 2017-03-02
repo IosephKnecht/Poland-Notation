@@ -16,3 +16,12 @@ C:\Users\student\Desktop\PriorityPolandNotation\PriorityPolandNotation\obj\Debug
 C:\Users\student\Desktop\PriorityPolandNotation\PriorityPolandNotation\obj\Debug\PriorityPolandNotation.Form1.resources
 C:\Users\student\Desktop\PriorityPolandNotation\PriorityPolandNotation\obj\Debug\PriorityPolandNotation.Properties.Resources.resources
 C:\Users\student\Desktop\PriorityPolandNotation\PriorityPolandNotation\obj\Debug\PriorityPolandNotation.csproj.GenerateResource.Cache
+C:\Users\dadya_fedar\Documents\GitProject\PriorityPolandNotation\bin\Debug\PriorityPolandNotation.exe.config
+C:\Users\dadya_fedar\Documents\GitProject\PriorityPolandNotation\obj\Debug\PriorityPolandNotation.exe
+C:\Users\dadya_fedar\Documents\GitProject\PriorityPolandNotation\obj\Debug\PriorityPolandNotation.pdb
+C:\Users\dadya_fedar\Documents\GitProject\PriorityPolandNotation\bin\Debug\PriorityPolandNotation.exe
+C:\Users\dadya_fedar\Documents\GitProject\PriorityPolandNotation\bin\Debug\PriorityPolandNotation.pdb
+C:\Users\dadya_fedar\Documents\GitProject\PriorityPolandNotation\obj\Debug\PriorityPolandNotation.csprojResolveAssemblyReference.cache
+C:\Users\dadya_fedar\Documents\GitProject\PriorityPolandNotation\obj\Debug\PriorityPolandNotation.Form1.resources
+C:\Users\dadya_fedar\Documents\GitProject\PriorityPolandNotation\obj\Debug\PriorityPolandNotation.Properties.Resources.resources
+C:\Users\dadya_fedar\Documents\GitProject\PriorityPolandNotation\obj\Debug\PriorityPolandNotation.csproj.GenerateResource.Cache
