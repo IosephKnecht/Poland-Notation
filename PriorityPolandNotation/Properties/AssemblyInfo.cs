@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Управление общими сведениями о сборке осуществляется с помощью 
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("PriorityPolandNotation")]
+[assembly: AssemblyTitle("WindowsFormsApplication52")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("PriorityPolandNotation")]
+[assembly: AssemblyProduct("WindowsFormsApplication52")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("3a368022-2e85-4f6f-ad16-1ce7885980b9")]
+[assembly: Guid("f4616dae-452e-415d-a588-95b692580d56")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //
