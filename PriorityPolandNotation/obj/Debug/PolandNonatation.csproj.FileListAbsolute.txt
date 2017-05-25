@@ -1,0 +1,9 @@
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\PolandNonatation\PolandNonatation\bin\Debug\PolandNonatation.exe.config
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\PolandNonatation\PolandNonatation\bin\Debug\PolandNonatation.exe
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\PolandNonatation\PolandNonatation\bin\Debug\PolandNonatation.pdb
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\PolandNonatation\PolandNonatation\obj\Debug\PolandNonatation.csprojResolveAssemblyReference.cache
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\PolandNonatation\PolandNonatation\obj\Debug\PolandNonatation.Form1.resources
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\PolandNonatation\PolandNonatation\obj\Debug\PolandNonatation.Properties.Resources.resources
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\PolandNonatation\PolandNonatation\obj\Debug\PolandNonatation.csproj.GenerateResource.Cache
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\PolandNonatation\PolandNonatation\obj\Debug\PolandNonatation.exe
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\PolandNonatation\PolandNonatation\obj\Debug\PolandNonatation.pdb

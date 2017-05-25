@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication52
+namespace PolandNonatation
 {
     public partial class Form1 : Form
     {
@@ -17,11 +17,18 @@ namespace WindowsFormsApplication52
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            PolandNotation obj = new PolandNotation();
-            if (textBox1.Text != null && textBox1.Text != string.Empty) obj._input = textBox1.Text;
-            listBox1.Items.Add(obj.Calcul());
+            string input_string = textBox1.Text;
+            input_string = input_string.Replace(" ", string.Empty);
+            Calcul calc = new Calcul();
+            calculLabel.Text= calc.CalculString(input_string);
+            if (calculLabel.Text != "Error") polandStringLabel.Text = calc.Output_String; else polandStringLabel.Text = "Error";
         }
     }
 }

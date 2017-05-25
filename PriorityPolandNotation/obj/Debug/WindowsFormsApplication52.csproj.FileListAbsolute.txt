@@ -1,9 +1,0 @@
-c:\users\dadya_fedar\documents\visual studio 2012\Projects\WindowsFormsApplication52\WindowsFormsApplication52\bin\Debug\WindowsFormsApplication52.exe.config
-c:\users\dadya_fedar\documents\visual studio 2012\Projects\WindowsFormsApplication52\WindowsFormsApplication52\obj\Debug\WindowsFormsApplication52.csprojResolveAssemblyReference.cache
-c:\users\dadya_fedar\documents\visual studio 2012\Projects\WindowsFormsApplication52\WindowsFormsApplication52\obj\Debug\WindowsFormsApplication52.Form1.resources
-c:\users\dadya_fedar\documents\visual studio 2012\Projects\WindowsFormsApplication52\WindowsFormsApplication52\obj\Debug\WindowsFormsApplication52.Properties.Resources.resources
-c:\users\dadya_fedar\documents\visual studio 2012\Projects\WindowsFormsApplication52\WindowsFormsApplication52\obj\Debug\WindowsFormsApplication52.csproj.GenerateResource.Cache
-c:\users\dadya_fedar\documents\visual studio 2012\Projects\WindowsFormsApplication52\WindowsFormsApplication52\bin\Debug\WindowsFormsApplication52.exe
-c:\users\dadya_fedar\documents\visual studio 2012\Projects\WindowsFormsApplication52\WindowsFormsApplication52\bin\Debug\WindowsFormsApplication52.pdb
-c:\users\dadya_fedar\documents\visual studio 2012\Projects\WindowsFormsApplication52\WindowsFormsApplication52\obj\Debug\WindowsFormsApplication52.exe
-c:\users\dadya_fedar\documents\visual studio 2012\Projects\WindowsFormsApplication52\WindowsFormsApplication52\obj\Debug\WindowsFormsApplication52.pdb
