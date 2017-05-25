@@ -17,6 +17,26 @@ namespace PolandNonatation
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Доп.метод на проверку скобок...
+        /// </summary>
+        /// <param name="source">Входная строка с мат.выражением...</param>
+        /// <returns>Возвращает true/false в зависимости от правильности расстановки скобок...</returns>
+        private bool ParseBrackets(string source)
+        {
+            int n = 0;
+            foreach (var c in source)
+            {
+                if (c == '(')
+                    n++;
+                if (c == ')')
+                    n--;
+                if (n < 0)
+                    return false;
+            }
+            return n == 0 ? true : false;
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -26,9 +46,16 @@ namespace PolandNonatation
         {
             string input_string = textBox1.Text;
             input_string = input_string.Replace(" ", string.Empty);
-            Calcul calc = new Calcul();
-            calculLabel.Text= calc.CalculString(input_string);
-            if (calculLabel.Text != "Error") polandStringLabel.Text = calc.Output_String; else polandStringLabel.Text = "Error";
+            if (ParseBrackets(input_string))
+            {
+                Calcul calc = new Calcul();
+                calculLabel.Text = calc.CalculString(input_string);
+                if (calculLabel.Text != "Error") polandStringLabel.Text = calc.Output_String; else polandStringLabel.Text = "Error";
+            }
+            else
+            {
+                MessageBox.Show("Error");
+            }
         }
     }
 }

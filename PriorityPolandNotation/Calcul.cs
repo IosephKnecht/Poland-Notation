@@ -15,6 +15,10 @@ namespace PolandNonatation
 
         public string Output_String { get { return output_string; } }
 
+        /// <summary>
+        /// Матрица переходов...
+        /// </summary>
+        /// <param name="input_string_sym">Текущий символ в строке...</param>
         private void TransitionProcedure(char input_string_sym)
         {
             string stack_sym = null;
@@ -77,12 +81,22 @@ namespace PolandNonatation
                 }
         }
 
+        /// <summary>
+        /// I-по спецификации...
+        /// Команда добавляет оператор в стэк...
+        /// </summary>
+        /// <param name="input_string_sym">Текущий символ в строке...</param>
         private void PutinStackandOutput(char input_string_sym)
         {
             if (digits.Count == 0 && input_string_sym != '(') throw new NullReferenceException();
             operators.Push(input_string_sym);
         }
 
+        /// <summary>
+        /// II-по спецификации...
+        ///Реализует выполнение ОДНОЙ операции...
+        /// </summary>
+        /// <param name="input_string_sym">Текущий символ в строке...</param>
         private void OnceCalculandPushinStack(char input_string_sym)
         {
             double new_digit = ReturnResult();
@@ -98,7 +112,11 @@ namespace PolandNonatation
             operators.Pop();
         }
 
-
+        /// <summary>
+        /// IV-команда по спецификации...
+        /// Реализует досчет либо до конца строки,либо до первой встречающейся открыв.скобки...
+        /// </summary>
+        /// <param name="input_string_sym">Текущий символ в строке...</param>
         private void AllCalculPushInStack(char input_string_sym)
         {
             while(operators.Count!=0&&operators.Peek()!='(')
@@ -111,6 +129,10 @@ namespace PolandNonatation
             if(input_string_sym!=')') PutinStackandOutput(input_string_sym);
         }
 
+        /// <summary>
+        /// Метод реализующий математические вычисления...
+        /// </summary>
+        /// <returns>Возвращает результат математической операции...</returns>
         private double ReturnResult()
         {
             double digit_2 = digits.Pop();
@@ -146,6 +168,10 @@ namespace PolandNonatation
         //    else return false;
         //}
 
+        /// <summary>
+        /// Вспомогательный метод по пересчету реальных знаков в стеке операторов...
+        /// </summary>
+        /// <returns>Количество реальных знаков...</returns>
         private int CalculOperators()
         {
             int count = 0;
@@ -156,6 +182,13 @@ namespace PolandNonatation
             return count;
         }
 
+        /// <summary>
+        /// Публичный метод реализующий всю логику по реализации однопроходного
+        /// пересчета строки...
+        /// </summary>
+        /// <param name="input_string">Входная строка,заранее корректная(правильная расстановка
+        /// скобок,удаление лишних пробелов и тд.)...</param>
+        /// <returns>Результат вычислений...</returns>
         public string CalculString(string input_string)
         {
             digits = new Stack<double>();
